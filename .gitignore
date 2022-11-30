@@ -1,0 +1,26 @@
+*
+!*/
+
+# Yarn 3
+# https://yarnpkg.com/features/zero-installs
+# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+yarn.lock
+!package.json
+
+# Git
+!.gitignore
+
+# TypeScript
+!tsconfig.json
+
+# Project Source
+!bundles/**
+!sources/**
+!README.md
